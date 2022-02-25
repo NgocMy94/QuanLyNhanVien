@@ -20,13 +20,13 @@ function NhanVien(
   this.tinhTongLuong = function () {
     this.luong = 0 
     var sep = document.getElementById("sep").value
-    var truongPhong = document.getElementById("truongPhong").value
-    var nhanVien = document.getElementById("nhanvien").value
+    var truong_Phong = document.getElementById("truong_Phong").value
+    var nhan_Vien = document.getElementById("nhan_vien").value
     if(this.chucVu === sep){
         this.luong = this.luongCoBan * 3
-    }else if(this.chucVu === truongPhong){
+    }else if(this.chucVu === truong_Phong){
         this.luong = this.luongCoBan * 2
-    }else if(this.chucVu === nhanVien){
+    }else if(this.chucVu === nhan_Vien){
         this.luong = this.luongCoBan * 1
     }
   };
